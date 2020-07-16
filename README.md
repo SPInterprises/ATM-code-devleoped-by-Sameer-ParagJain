@@ -1,2 +1,2 @@
-# Atm code developed by me
+# Atm code
 this is only testing purpose
