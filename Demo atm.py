@@ -10,12 +10,12 @@ while chances>=0:
     pin=int(input("Please enter your 4-digit pin:\n"))
     if pin==8860:
         print("Your Atm Pin is  Succeesfully Verify: You can access it\n")
-        
+
         while restart not in ("n","no","N","No"):
-            print("Please press 1 for Your Balance\n")
-            print("Please press 2 for Your Withdraw\n")
-            print("Please press 3 for Pay in\n")
-            print("Please press 4 for Return card\n")
+            print("Please Press 1 for Your Balance\n")
+            print("Please Press 2 for Your Withdraw\n")
+            print("Please Press 3 for Pay in\n")
+            print("Please Press 4 for Return card\n")
             option= int(input("what would u like to choose  above option ?\n"))
             if option==1 :
                 print("Your Balance is $",balance,"\n")
@@ -63,7 +63,8 @@ while chances>=0:
         print("Incoreect Password")
         chances=chances-1
         if chances==0:
-            print("\n No more try ,Contact-Support@SBI.co.in")
+            print("No More Attempt\n")
+            print(" Your ATM Card is Blocked now:\n So Please-[Contact-Support@SBI.co.in or Helpline No-123456789]")
             exit()
 
 
