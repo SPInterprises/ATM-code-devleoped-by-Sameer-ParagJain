@@ -10,8 +10,7 @@ while chances>=0:
     pin=int(input("Please enter your 4-digit pin:\n"))
     if pin==8860:
         print("Your Atm Pin is  Succeesfully Verify: You can access it\n")
-        if left_tries==chances:
-            print("You have exhausted limit please contact our SBI Bank")
+        
         while restart not in ("n","no","N","No"):
             print("Please press 1 for Your Balance\n")
             print("Please press 2 for Your Withdraw\n")
